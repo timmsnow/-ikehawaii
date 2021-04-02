@@ -1,0 +1,10 @@
+{
+  id: experience.id,
+  name: experience.name,
+  location: experience.location,
+  length: experience.length,
+  time: experience.time,
+  info: experience.info,
+  image_url: experience.image_url,
+  links: experience.links,
+}
