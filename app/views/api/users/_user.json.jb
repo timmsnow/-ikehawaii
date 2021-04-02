@@ -1,0 +1,7 @@
+{
+  id: user.id,
+  name: user.name,
+  email: user.email,
+  trip_start: user.trip_start,
+  trip_end: user.trip_end,
+}
