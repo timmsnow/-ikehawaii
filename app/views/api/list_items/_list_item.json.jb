@@ -1,0 +1,8 @@
+{
+  id: list_item.id,
+  user_id: list_item.user_id,
+  user_info: list_item.user,
+  experience_id: list_item.experience_id,
+  experience_info: list_item.experience,
+  date: list_item.date,
+}

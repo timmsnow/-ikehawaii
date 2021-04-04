@@ -13,5 +13,11 @@ Rails.application.routes.draw do
     get "/experiences/:id" => "experiences#show"
     post "/experiences" => "experiences#create"
     patch "/experiences/:id" => "experiences#update"
+    #list_items
+    get "/list_items" => "list_items#index"
+    get "/list_items/:id" => "list_items#show"
+    post "/list_items" => "list_items#create"
+    patch "/list_items/:id" => "list_items#update"
+    delete "/list_items/:id" => "list_items#destroy"
   end
 end

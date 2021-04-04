@@ -13,3 +13,23 @@
 
 # Experience.create!(name: "Kahena Beach", location: "Puna", length: "3 hours", time: "noon", info: "Kahena is a clothing optional, black sand beach", image_url: "https://aws.hawaii-guide.com/images/made/IMG_1990_1200_900_85_s_c1_c_c_0_0.jpg", links: "")
 # Experience.create!(name: "Akaka Falls", location: "Hilo Area", length: "1 hour", time: "morning", info: "Akaka Falls is the tallest waterfall on the Big Island...", image_url: "https://camping.ehawaii.gov/camping/resources/spc,resource,57871,p,0,null,AkakaFallsSP.jpg", links: "")
+
+# Tag.create!(name: "Beaches")
+# Tag.create!(name: "Ocean Activities")
+# Tag.create!(name: "Volcano")
+# Tag.create!(name: "Hiking")
+# Tag.create!(name: "Waterfall")
+# Tag.create!(name: "Hawaiian Culture") ** last one in DB
+# Tag.create!(name: "Shopping")
+# Tag.create!(name: "Dining")
+# Tag.create!(name: "Day Time")
+# Tag.create!(name: "Night Time")
+# Tag.create!(name: "History")
+# Tag.create!(name: "Hawaiian Culture")
+
+# TagExperience.create!(tag_id: 1, experience_id: 1)
+# TagExperience.create!(tag_id: 2, experience_id: 1)
+# TagExperience.create!(tag_id: 4, experience_id: 2)
+# TagExperience.create!(tag_id: 5, experience_id: 2)
+# TagExperience.create!(tag_id: 3, experience_id: 3)
+# TagExperience.create!(tag_id: 4, experience_id: 3)
