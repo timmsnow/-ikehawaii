@@ -19,5 +19,7 @@ Rails.application.routes.draw do
     post "/list_items" => "list_items#create"
     patch "/list_items/:id" => "list_items#update"
     delete "/list_items/:id" => "list_items#destroy"
+    #sessions
+    post "/sessions" => "sessions#create"
   end
 end
