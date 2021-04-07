@@ -1,7 +1,14 @@
 class Api::UsersController < ApplicationController
+  # before_action :authenticate_user, only: [:destroy]
+
   def index
     @users = User.all
     render "index.json.jb"
+  end
+
+  def show
+    @user = User.find(params[:id])
+    render "show.json.jb"
   end
 
   def create
@@ -21,12 +28,18 @@ class Api::UsersController < ApplicationController
   end
 
   def update
-    @user = User.find(params[:id])
+    user_id = params[:id]
+    @user = User.find_by(id: user_id)
+    # @user = User.find(params[:id])
+    # @user = current_user
     @user.name = params[:name] || @user.name
     @user.email = params[:email] || @user.email
-    @user.password = params[:password] || @user.password
     @user.trip_start = params[:trip_start] || @user.trip_start
     @user.trip_end = params[:trip_end] || @user.trip_end
+    if params[:password]
+      @user.password = params[:password] || @user.password
+      @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation
+    end
     #happy/sad path
     if @user.save
       render json: { message: "you did it" }
