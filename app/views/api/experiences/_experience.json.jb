@@ -7,4 +7,5 @@
   info: experience.info,
   image_url: experience.image_url,
   links: experience.links,
+  tags: experience.tags,
 }

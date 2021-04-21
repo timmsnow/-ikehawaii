@@ -4,4 +4,5 @@
   email: user.email,
   trip_start: user.trip_start,
   trip_end: user.trip_end,
+  user_experiences: user.list_items,
 }

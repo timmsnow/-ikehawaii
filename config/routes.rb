@@ -20,6 +20,9 @@ Rails.application.routes.draw do
     post "/list_items" => "list_items#create"
     patch "/list_items/:id" => "list_items#update"
     delete "/list_items/:id" => "list_items#destroy"
+    #tags
+    get "/tags" => "tags#index"
+
     #sessions
     post "/sessions" => "sessions#create"
   end
