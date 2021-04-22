@@ -2,10 +2,13 @@
   id: experience.id,
   name: experience.name,
   location: experience.location,
+  description: experience.description,
   length: experience.length,
   time: experience.time,
   info: experience.info,
   image_url: experience.image_url,
   links: experience.links,
   tags: experience.tags,
+  lat: experience.lat,
+  lng: experience.lng,
 }
