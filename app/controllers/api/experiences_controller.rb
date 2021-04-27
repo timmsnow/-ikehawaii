@@ -15,12 +15,15 @@ class Api::ExperiencesController < ApplicationController
   def create
     experience = Experience.new(
       name: params[:name],
+      pronunciation: params[:pronunciation],
       location: params[:location],
       length: params[:length],
       time: params[:time],
       info: params[:info],
       image_url: params[:image_url],
       links: params[:links],
+      lat: params[:lat],
+      lng: params[:lng],
     )
     if experience.save
       render json: { message: "experience created successfully" }, status: :created
@@ -38,6 +41,9 @@ class Api::ExperiencesController < ApplicationController
     @experience.info = params[:info] || @experience.info
     @experience.image_url = params[:image_url] || @experience.image_url
     @experience.links = params[:links] || @experience.links
+    @experience.lat = params[:lat] || @experience.lat
+    @experience.lng = params[:lng] || @experience.lng
+    @experience.pronunciation = params[:pronunciation] || @experience.pronunciation
     #happy/sad path
     if @experience.save
       render json: { message: "you did it" }

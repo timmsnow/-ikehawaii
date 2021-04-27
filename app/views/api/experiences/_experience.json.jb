@@ -1,6 +1,7 @@
 {
   id: experience.id,
   name: experience.name,
+  pronunciation: experience.pronunciation,
   location: experience.location,
   description: experience.description,
   length: experience.length,

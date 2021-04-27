@@ -17,8 +17,8 @@ class Api::UsersController < ApplicationController
       email: params[:email],
       password: params[:password],
       password_confirmation: params[:password_confirmation],
-      trip_start: params[:trip_start].to_datetime,
-      trip_end: params[:trip_end].to_datetime,
+      # trip_start: params[:trip_start].to_datetime,
+      # trip_end: params[:trip_end].to_datetime,
     )
     if user.save
       render json: { message: "User created successfully" }, status: :created
