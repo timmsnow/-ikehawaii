@@ -137,4 +137,29 @@ TagExperience.create!(tag_id: 7, experience_id: 25)
 TagExperience.create!(tag_id: 8, experience_id: 25)
 
 
+Experience.create!(name: "Uncle Roberts", pronunciation: "", location: "Puna", description: "A local farmers market/smoothie joint that offers live music on wednesday nights. Uncle Roberts is a happening commodity around these parts and definitely the place to be when the music is pumping. Locals and tourists alike meet up here to share in the revelry that is rampant among the south Puna community.", length: "3 hours +", time: "Wednesday evenings are best for live music and party atmosphere", info: "Don't be tempted to have drinks and make the long drive home. There is no light to speak of when driving at night down here. Don't leave valuables in your car or keep anything of worth on your person.", image_url: "", links: "", lat: , lng: )
+TagExperience.create!(tag_id: 7, experience_id: 26)
+TagExperience.create!(tag_id: 9, experience_id: 26)
+
+Experience.create!(name: "Pohoiki Hot Springs", pronunciation: "", location: "Puna", description: "This 8 x 14 foot warm water pool is heated by the forces below... This pool is only 50 feet from the shore near Isaac Hale Beach Park. Great place for a dip with atmosphere.", length: "1 hour", time: "Before dark", info: "This spot is popular with the locals, you may also encounter wild pigs!", image_url: "", links: "", lat: , lng: )
+TagExperience.create!(tag_id: 1, experience_id: 27)
+TagExperience.create!(tag_id: 2, experience_id: 27)
+TagExperience.create!(tag_id: 6, experience_id: 27)
+
+Experience.create!(name: "Carlsmith Beach Park", pronunciation: "", location: "Hilo", description: "A lovely community beach that enjoys a priviledged bit of shelter from the swells of the Pacific Ocean. This is a great place to picnic, have a swim or kayak amidst the reeds. Turtles can often be found sunning here.", length: "3 hours", time: "Day Time", info: "Parking can be extremely limited here. There is no sand, just a lovely lawn and crystal clear water.", image_url: "", links: "", lat: , lng: )
+TagExperience.create!(tag_id: 1, experience_id: 28)
+TagExperience.create!(tag_id: 2, experience_id: 28)
+
+Experience.create!(name: "Laupahoehoe Train Museum", pronunciation: "", location: "Hamakua", description: "An interesting slice of island history, this place tells the story of Hamakua's history with trains.", length: "1 hour", time: "Daytime, Monday and Wednesday.", info: "Thursday and Friday you can visit the museum by appointment only", image_url: "", links: "", lat: , lng: )
+TagExperience.create!(tag_id: 7, experience_id: 29)
+TagExperience.create!(tag_id: 8, experience_id: 29)
+
+
+Experience.create!(name: "Lyman Museum", pronunciation: "", location: "Hilo", description: "This museum in Hilo is part Hawaiian history, part geology exhibit. This is where you can learn about the islands fascinating origins as well as the local fauna and flora. Beautiful.", length: "1-2 hours", time: "Day time", info: "Next door is the Lyman Missionary house which was built in 1838. You can visit with an appointment.", image_url: "", links: "", lat: , lng: )
+TagExperience.create!(tag_id: 6, experience_id: 30)
+TagExperience.create!(tag_id: 7, experience_id: 30)
+TagExperience.create!(tag_id: 8, experience_id: 30)
+
+
+
 Experience.create!(name: "", pronunciation: "", location: "", description: "", length: "", time: "", info: "", image_url: "", links: "", lat: , lng: )
