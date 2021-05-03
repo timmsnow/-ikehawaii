@@ -5,4 +5,6 @@
   trip_start: user.trip_start,
   trip_end: user.trip_end,
   user_experiences: user.list_items,
+  hotel_start: user.hotel_start,
+  hotel_end: user.hotel_end,
 }

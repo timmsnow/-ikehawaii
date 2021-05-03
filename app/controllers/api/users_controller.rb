@@ -34,8 +34,10 @@ class Api::UsersController < ApplicationController
     # @user = current_user
     @user.name = params[:name] || @user.name
     @user.email = params[:email] || @user.email
-    @user.trip_start = params[:trip_start].to_datetime || @user.trip_start
-    @user.trip_end = params[:trip_end].to_datetime || @user.trip_end
+    @user.trip_start = params[:trip_start] || @user.trip_start
+    @user.trip_end = params[:trip_end] || @user.trip_end
+    @user.hotel_start = params[:hotel_start] || @user.hotel_start
+    @user.hotel_end = params[:hotel_end] || @user.hotel_end
     if params[:password]
       @user.password = params[:password] || @user.password
       @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation

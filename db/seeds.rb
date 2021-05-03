@@ -63,7 +63,7 @@ Experience.create!(name: "Ebisuya Sushi", location: "Hilo", description: "Maybe 
 TagExperience.create!(tag_id: 10, experience_id: 11)
 TagExperience.create!(tag_id: 9, experience_id: 11)
 
-Experience.create!(name: "Kauna'oa (Mauna Kea) Beach", pronunciation: "", location: "Kohala", description: "Beautiful stretch of golden sand with calm warm waters and a greet reef for snorkeling. Boogie boarding is a popular past time here. Make sure to get here eearly.", length: "3 hours", time: "Before 10 am", info: "Don't swim out too far as the tide can be unpredicatble and the water gets a bit frothy.", image_url: "", links: "https://www.tropicalsnorkeling.com/images/SnorkelingMaunaKeaBeach1.jpg", lat: -155.8292, lng: 20.0078)
+Experience.create!(name: "Kauna'oa (Mauna Kea) Beach", pronunciation: "", location: "Kohala", description: "Beautiful stretch of golden sand with calm warm waters and a greet reef for snorkeling. Boogie boarding is a popular past time here. Make sure to get here eearly.", length: "3 hours", time: "Before 10 am", info: "Don't swim out too far as the tide can be unpredicatble and the water gets a bit frothy.", image_url: "https://www.lovebigisland.com/wp-content/uploads/mauna-kea-beach-HVB.jpg", links: "", lat: -155.8292, lng: 20.0078)
 TagExperience.create!(tag_id: 1, experience_id: 12)
 TagExperience.create!(tag_id: 2, experience_id: 12)
 
