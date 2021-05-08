@@ -28,7 +28,8 @@ class Api::ListItemsController < ApplicationController
 
   def update
     @list_item = ListItem.find(params[:id])
-    @list_item.experience_id = params[:experience.id] || @list_item.experience.id
+    # @list_item.experience_id = params[:experience.id] || @list_item.experience.id
+    @list_item.date = params[:date] || @list_item.date
     #happy/sad path
     if @list_item.save
       render json: { message: "experience added successfully" }
